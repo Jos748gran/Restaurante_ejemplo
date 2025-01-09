@@ -19,5 +19,10 @@ from django.urls import path
 from ClasesPedido import views
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.home, name="home")
+    path('', views.home, name="home"),
+    path('user/', views.user, name="user"),
+    path('blank/',views.blank, name="blank"),
+    path('login/',views.login, name="login"),
+    path('login/', views.login_view, name='login'),
+    path('user/', views.user_panel, name='user_panel'),  # Define la vista 'user_panel'.
 ]
