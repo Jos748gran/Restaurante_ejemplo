@@ -87,7 +87,9 @@ class PersonalCocina(Empleado):
 
 class Cliente(Persona):
     #Atributos:
-    direccion = models.CharField(max_length=50, blank=True, null=True)
+    cantidad_persona = models.PositiveIntegerField(editable=False, default=1)
+    es_para_llevar = models.BooleanField(editable=False, default=False)
+    realizo_pedido = models.BooleanField(editable=False,default=False)
     #Asociacion:
     historial = models.OneToOneField('Historial', on_delete=models.CASCADE, null=True, editable=False,
                                      related_name='cliente')

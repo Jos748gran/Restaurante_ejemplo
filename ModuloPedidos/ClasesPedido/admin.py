@@ -10,8 +10,8 @@ class PersonalCocinaAdmin(admin.ModelAdmin):
     list_editable = ('cedula','telefono')
 admin.site.register(PersonalCocina, PersonalCocinaAdmin)
 class ClienteAdmin(admin.ModelAdmin):
-    list_display = ('nombre','cedula','telefono','direccion','historial','mesa')
-    list_editable = ('cedula','telefono','direccion')
+    list_display = ('nombre','cedula','telefono','historial','mesa')
+    list_editable = ('cedula','telefono')
 admin.site.register(Cliente,ClienteAdmin)
 class ItemPedidoAdmin(admin.ModelAdmin):
     list_display = ('pedido','cliente','plato','cantidad','observacion')
@@ -22,7 +22,7 @@ class PedidoAdmin(admin.ModelAdmin):
     list_editable = ('mesa','estado')
 admin.site.register(Pedido,PedidoAdmin)
 class HistorialAdmin(admin.ModelAdmin):
-    list_display = ('id','cliente')
+    list_display = ('id',)
 admin.site.register(Historial,HistorialAdmin)
 class RestauranteAdmin(admin.ModelAdmin):
     list_display = ('nombre','registro_historico','menu')
