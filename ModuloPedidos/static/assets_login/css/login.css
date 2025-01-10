@@ -6,7 +6,11 @@ body {
     color: #1b262c;
     
     margin: 0;
+<<<<<<< HEAD
     background-color: #5f6769;
+=======
+    background-color: #69695f;
+>>>>>>> origin/develop
 }
 
 /* efectos para el contenedor de pantalla completa */
@@ -14,15 +18,24 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> origin/develop
     margin: 0;
     padding: 0;
     min-width: 100vw;
     min-height: 100vh;
     width: 100%;
     height: 100%;
+<<<<<<< HEAD
     
     background-image: url(../imagenes/fondo_difuminado_login.jpg);
+=======
+
+    background-image: url(https://static.vecteezy.com/system/resources/previews/001/959/920/large_2x/blurred-busy-restaurant-background-free-photo.JPG);
+>>>>>>> origin/develop
     background-position: center;
     background-size: cover;
 }
@@ -33,6 +46,7 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction:row;
+<<<<<<< HEAD
     
     min-width: 380px;
     max-width: 900px;
@@ -51,6 +65,26 @@ body {
     -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
     
+=======
+
+    min-width: 380px;
+    max-width: 900px;
+    width: 90%;
+
+    background-color: #686354;
+
+    /*opacity: 0.50;
+    filter: alpha(opacity=50);*/
+
+    border-radius: 10px 10px 10px 10px;
+    -moz-border-radius: 10px 10px 10px 10px;
+    -webkit-border-radius: 10px 10px 10px 10px;
+
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+>>>>>>> origin/develop
     padding: 30px;
     box-sizing: border-box;
 }
@@ -62,6 +96,7 @@ body {
     max-width: 320px;
     min-width: 320px;
     padding: 30px 30px 50px 30px;
+<<<<<<< HEAD
     background-color: #719192;
     
     -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
@@ -74,6 +109,20 @@ body {
     
     box-sizing: border-box;
     
+=======
+    background-color: #5a7e78;
+
+    -webkit-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+    box-shadow: 0px 0px 5px 5px rgba(0,0,0,0.15);
+
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+    box-sizing: border-box;
+
+>>>>>>> origin/develop
     opacity: 1;
     filter: alpha(opacity=1);
 }
@@ -83,7 +132,11 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 120%;
     color:#3c4245;
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> origin/develop
     margin-top: 15px;
 }
 
@@ -91,6 +144,7 @@ body {
     font-family: 'Overpass', sans-serif;
     font-size: 110%;
     color: #1b262c;
+<<<<<<< HEAD
     
     display: block;
     width: 100%;
@@ -101,6 +155,18 @@ body {
     
     box-sizing: border-box;
     
+=======
+
+    display: block;
+    width: 100%;
+    height: 40px;
+
+    margin-bottom: 10px;
+    padding: 5px 5px 5px 10px;
+
+    box-sizing: border-box;
+
+>>>>>>> origin/develop
     border: none;
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
@@ -109,7 +175,11 @@ body {
 
 #login input::placeholder {
     font-family: 'Overpass', sans-serif;
+<<<<<<< HEAD
     color: #E4E4E4;
+=======
+    color: #cfcbcb;
+>>>>>>> origin/develop
 }
 
 #login button {
@@ -119,6 +189,7 @@ body {
     width: 100%;
     height: 40px;
     border: none;
+<<<<<<< HEAD
     
     border-radius: 3px 3px 3px 3px;
     -moz-border-radius: 3px 3px 3px 3px;
@@ -126,12 +197,25 @@ body {
     
     background-color: #dfcdc3;
     
+=======
+
+    border-radius: 3px 3px 3px 3px;
+    -moz-border-radius: 3px 3px 3px 3px;
+    -webkit-border-radius: 3px 3px 3px 3px;
+
+    background-color: #af9a90;
+
+>>>>>>> origin/develop
     margin-top: 10px;
 }
 
 #login button:hover {
     background-color: #3c4245;
+<<<<<<< HEAD
     color:#dfcdc3;
+=======
+    color:#d3d0ce;
+>>>>>>> origin/develop
 }
 /* formulario de login */
 /* formulario de login */
@@ -143,6 +227,7 @@ body {
     /*display: flex;
     align-items:center;
     justify-content:center;*/
+<<<<<<< HEAD
     
     text-align: center;
     width: 100%;
@@ -150,6 +235,15 @@ body {
     opacity: 0.70;
     filter: alpha(opacity=70);
     
+=======
+
+    text-align: center;
+    width: 100%;
+
+    opacity: 0.70;
+    filter: alpha(opacity=70);
+
+>>>>>>> origin/develop
     padding:20px 20px 20px 50px;
     box-sizing: border-box;
 }
@@ -166,11 +260,19 @@ body {
 hr {
     border-top: 1px solid #8c8b8b;
 	border-bottom: 1px solid #dfcdc3;
+<<<<<<< HEAD
     
 }
 .pie-form {
     font-size: 90%;
     text-align: center;    
+=======
+
+}
+.pie-form {
+    font-size: 90%;
+    text-align: center;
+>>>>>>> origin/develop
     margin-top: 15px;
 }
 
@@ -182,7 +284,11 @@ hr {
 }
 
 .pie-form a:hover {
+<<<<<<< HEAD
     color: #719192;
+=======
+    color: #4d6464;
+>>>>>>> origin/develop
 }
 /* seccion de la derecha */
 /* seccion de la derecha */

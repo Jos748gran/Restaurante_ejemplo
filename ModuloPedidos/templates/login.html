@@ -40,10 +40,18 @@
 <form method="POST" action="{% url 'login' %}">
     {% csrf_token %}
     <label for="username">Usuario:</label>
+<<<<<<< HEAD
     <input type="text" id="username" name="username" required>
 
     <label for="password">Contraseña:</label>
     <input type="password" id="password" name="password" required>
+=======
+    <input id="usuario" type="text" name="usuario" placeholder="Usuario" required>
+    
+
+    <label for="password">Contraseña:</label>
+    <input id="password" type="password" placeholder="Contraseña" name="password" required>
+>>>>>>> origin/develop
 
     <button type="submit">Iniciar sesión</button>
 </form>
@@ -58,7 +66,11 @@
                         <a href="#">¿Perdiste tu contraseña?</a>
                         <a href="#">¿No tienes Cuenta? Registrate</a>
                         <hr>
+<<<<<<< HEAD
                         <a href="#">« Volver</a>
+=======
+                        <a href="{% url 'home' %}" class="btn btn-primary ml-xl-4">« Volver</a>
+>>>>>>> origin/develop
                     </div>
                 </div>
             </div>
